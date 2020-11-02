@@ -1,0 +1,24 @@
+<div class="container py-5" >
+
+    <div class="row">
+      
+        <div *ngFor="let item of items"  >
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="container py-3 "  >
+              <div class="card text-white cardA  animate__animated animate__fadeIn">
+                <img class="card-img-top image img-fluid rounded" src="../../assets/img/{{item.Imagen}}" alt="" >
+                <div class="card-body"  >
+                  <h4 class="card-title">{{item.Nombre}}</h4>
+                  <ul class="card-text text-left"  >
+                    <li>Capacidad: {{item.Capacidad}}</li>
+                    <li>Altura mínima: {{item.AlturaMin}} metros..</li>
+                    <li>Edad mínima: {{item.EdadMin}} años.</li>
+                    <li>Período de mantenimiento: {{item.Mantenimiento}}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>

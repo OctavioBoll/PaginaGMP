@@ -1,0 +1,48 @@
+
+
+.navbar-brand,.nav-link{
+    color:black;
+}
+
+
+
+.bg-dark{
+    
+    background-color: rgba(233, 160, 252, 0.446) !important;
+    transition: .9s;
+}
+
+.bg-dark.scrolled{
+    
+    background-color: rgb(169, 35, 169) !important;
+    
+}
+
+#checkbox{
+    display: none;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    
+}
+ .btn{
+     padding: 0px;
+ }
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+ }
+
+ .flecha{
+     position: relative;
+     transform: rotate(0deg);
+     transition:.5s;
+     outline: none;
+ }
+
+
+input:checked + .flecha{
+    transform:rotateZ(180deg);
+    transition: 0.5s;
+}

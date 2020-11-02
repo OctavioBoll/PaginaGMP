@@ -1,0 +1,61 @@
+div .inicio{
+    justify-content: center;
+    position: relative;
+    right: 45px;
+}
+
+h1{
+    color:white;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+
+.imagen-jumbo {
+    position: relative;
+    text-align: left;
+    max-width: 400px;
+    max-height: 600px;
+    justify-content: left;
+    padding-left: 70px ;
+}
+    
+.texto-jumbo{
+    justify-content: right;
+}
+
+
+.jumbotron{
+    position:relative;
+    color:white;
+    background:rgba(248, 115, 248, 0);
+    background-size: cover;
+}
+
+.jumbotron p{
+    background-color: rgba(245, 222, 179, 0.015);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.item-estrategia{
+    color:white;   
+}
+
+.estrategia{
+    bottom:150px;
+}
+
+.img-estrategia{
+    position: relative;
+    left: 50px;
+    padding:40px;
+    max-width: 200px;
+    max-height: 200px;
+
+}
