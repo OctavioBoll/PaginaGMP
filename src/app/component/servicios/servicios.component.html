@@ -72,9 +72,9 @@
 </div>
 
 <div class="col-12 d-flex justify-content-center">
-<p class="lead">
-    <button class="boton m-5 " (click)=ActivarForm()> Ver Formulario</button>
-</p>
+    <p class="lead">
+        <button class="boton m-5 " (click)=ActivarForm()> Ver Formulario</button>
+    </p>
 </div>
 
 
@@ -91,6 +91,7 @@
     <div class="jumbotron">
         <div class="text text-center">
             <h1>Formulario</h1><br><br>
+            <p>Al enviar los datos se le enviara los presupuestos con los precios actualizados a la fecha y un formulario para completar con los datos para organizar como usted desee el evento</p>
         </div>
         <!-- Registro en Alta,Modificacion o Consulta -->
         <form name='FormReg'>
@@ -128,21 +129,23 @@
                     </div>
                 </div>
 
-                <!--campo codigodebarra-->
+
+                <!-- campo Email -->
                 <div class="form-group row">
-                    <label class="col-form-label col-sm-2 col-sm-offset-2" for="Descripcion">
-                        Descripcion <span class="text-danger">*</span>
+                    <label class="col-form-label col-sm-2 col-sm-offset-2" for="Email">
+                        Email <span class="text-danger">*</span>
                     </label>
                     <div class="col-sm-6">
-                        <input type="text" name="Descripcion" class="form-control" />
+                        <input type="text" name="Email" class="form-control" />
 
                     </div>
                 </div>
 
+
             </fieldset>
         </form>
         <div class="container ">
-            <button class="btn btn-primary float-right">enviar</button>
+            <button class="btn btn-primary float-right">Enviar</button>
         </div>
     </div>
 </div>
